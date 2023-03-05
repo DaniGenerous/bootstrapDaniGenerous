@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body { background-color: #9EEFE4; 
+    background-image: url("images/triangles.jpeg");
+    background-repeat:repeat-x;
+    background-size:100%;}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(235, 65, 192)}
+ .nav-link {
+        display: block;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+        font-size: var(--bs-nav-link-font-size);
+        font-weight: var(--bs-nav-link-font-weight);
+        color: skyblue;
+        text-decoration: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out, border-color .15s ease-in-out;}
+
+  #Summary {
+            font-family: 'Quicksand', sans-serif;
+                text-transform: capitalize;
+                font-size:22px;
+                background-color: palevioletred;
+                opacity: 0.83;
+            border: 50px;
+            padding: 55px;
+            margin: 20px;
+        }
+#Title
+  {text-align:center;
+            font-style: italic;
+            letter-spacing: 8px;
+            color: darkslateblue;
+            font-weight: bold;
+             text-shadow: .2em .2em .2em silver;
+            font-size: 60px;
+          text-decoration: overline;
+      text-decoration-color: skyblue;}
+
+        #contacttitle {
+            font-weight:bolder;
+            padding-top: 80px;
+            font-size:30px;
+            text-decoration:underline;
+            text-transform: uppercase;
+            letter-spacing:6px;
+        text-align: center}
+        
+        #please {text-align: center;
+        font-style:italic;}
+        
+        #contact
+        {
+            font-size:22px;
+            text-align: center;
+            border: 20px;
+            padding: 30px;
+            margin: 20px;  
+            border-style: solid;
+          border-color: darkslateblue;
+        background-color:palevioletred;}
+
+.column {margin-left: 30px; margin-right:30px;}
+#portfolio {margin-left: 20px; margin-right:20px;}
+    
+#image {margin-bottom: 100px}
